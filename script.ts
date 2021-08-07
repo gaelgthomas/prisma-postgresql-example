@@ -27,7 +27,7 @@ async function main() {
     where: {
       email: 'hello@herewecode.io',
     },
-    include: { Tweet: true },
+    include: { tweets: true },
   })
 
   console.log('User object with Tweets:')

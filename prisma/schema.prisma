@@ -17,7 +17,7 @@ model User {
 
   // Each user can have between
   // 0 and an infinite number of tweets
-  Tweet Tweet[]
+  tweets Tweet[]
 }
 
 model Tweet {
@@ -36,5 +36,5 @@ model Tweet {
   userId Int
 
   // Each author is stored in the "User" table
-  User User @relation(fields: [userId], references: [id])
+  user User @relation(fields: [userId], references: [id])
 }
