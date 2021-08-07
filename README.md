@@ -2,7 +2,7 @@
 
 This repository aims to share a simple example of database management using [Prisma](https://www.prisma.io/) and a PostgreSQL database.
 
-You can find the related Twitter thread by [clicking here]().
+You can find the related Twitter thread by [clicking here](https://twitter.com/gaelgthomas/status/1423993422088708099).
 
 ## Requirements to build the project
 
