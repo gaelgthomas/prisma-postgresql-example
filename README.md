@@ -1,4 +1,4 @@
-# Prisma JS with PostgreSQL example
+# Prisma JS with PostgreSQL
 
 This repository aims to share a simple example of database management using [Prisma](https://www.prisma.io/) and a PostgreSQL database.
 
@@ -7,7 +7,7 @@ You can find the related Twitter thread by [clicking here](https://twitter.com/g
 ## Requirements to build the project
 
 - Docker
-- Node
+- Node.js (12.2 or higher)
 
 ## Build the project
 
