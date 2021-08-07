@@ -41,7 +41,3 @@ This script will create a user and its first tweet. Then, it will fetch the user
 ```
 $ npm run dev
 ```
-
-## Author
-
-- **Gaël THOMAS** - [gael-thomas](https://github.com/gael-thomas)
