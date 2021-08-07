@@ -24,7 +24,7 @@ model Tweet {
   // Create an unique ID for each tweet
   id Int @id @default(autoincrement())
 
-  // Each tweet have:
+  // Each tweet has:
   // - a content (text - maximum 280 characters)
   // - a type (single tweet)
   text String @db.VarChar(280)
@@ -32,7 +32,7 @@ model Tweet {
   // Save the tweet creation time
   createdAt DateTime @default(now())
 
-  // Each tweet have an author (we keep the ID as "authorId")
+  // Each tweet has an author (we keep the ID as "authorId")
   userId Int
 
   // Each author is stored in the "User" table
